@@ -1,0 +1,33 @@
+*{
+    margin: 2px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.card{
+    border: 2px solid green;
+    height: auto;
+    width: 300px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botton{
+    height: auto;
+    border: 2px solid green;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shopping{
+    height: auto;
+    border: 2px solid green;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -5,17 +5,17 @@ const Navbar = () => {
 
     return (
         <nav style={{display: 'flex', justifyContent: 'space-around'}}>
-            <div>
+            <div className='card'>
                 <h1>Optimax</h1>
             </div>
-            <div>
+            <div className='botton'>
                 <button>Inicio</button>
                 <button>Quienes Somos</button>
                 <button>Tus Gafas</button>
                 <button>Tus Lentes</button>
                 <button>Ingresa</button>
             </div>
-            <div>
+            <div className='shopping'>
                 <CartWidget />
             </div>
         </nav>
